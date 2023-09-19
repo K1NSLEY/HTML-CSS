@@ -44,12 +44,13 @@ nav{
 }
 #personal{
   
-  background-color:rgb(50,50,150);
-  background-image:url(https://c5.staticflickr.com/1/462/31726704500_33721375db_k.jpg);
-    background-repeat:no-repeat;
+  background-color:rgb(25,46,75);
+  background-image:url(https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png);
+  opacity:0.5;
+  background-repeat:no-repeat;
   background-position:center;
-    background-size:cover;
-}
+  background-size:cover;
+}s
 #portifolio{
   background-color:rgb(50,150,50);
   background-image:url(https://c3.staticflickr.com/1/384/31726910090_a63de4bde9_k.jpg);
