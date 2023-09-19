@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8"> <!--Tipo de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ajuda na facilidade da engine de busca -->
+    <meta name="author" content="Kinsley Chinda Amadi">
+    <meta name="description"content="As anotações para o kinsley de sua jornada como dev">
+    <title>Kinsley's Notes</title>
+    <meta name="robots" contents="follow">
+    
+</head>
+
+
+
+
+<body>
+    <h1>
+        HTML Kinsley's Test
+    </h1>
+
+
+    <div class="selct">
+        <h2><span>Links test:</span></h2>
+    </div>
+    <a href="https://api.whatsapp.com/send/?phone=6611939511960&text&type=phone_number&app_absent=0" target="_blank">Meu
+        Whatsapp</a><br>
+    <a href="mailto:kinsbrasil@gmail.com.br" target="_blank">Gmail</a><br>
+    <a href="tel:+5511949511960" target="_blank">Telefone</a><br>
+    <a href="C:\Users\kinsb\OneDrive\Documentos\VScode\Exerc dos Links e Dir\index.html" target="_blank">Primeiro Projeto</a><br>
+    <a href="Arduino/index.html">Projeto Arduino</a>
+
+    <h2>Menu Test:</h2>
+    <p>
+        <a href="#citar">Como citar caraceteres Reservados</a><br>
+        <a href="#semântico">semântica</a><br>
+        <a href="#citacoes">Como fazer citações ou menção</a><br>
+        <a href="#Direcory">Como usar Diretórios</a>
+    </p>
+
+
+    <h2>
+        Modificadores de Texto:
+    </h2>
+
+
+    &nbsp;
+    <!--Negrito-->
+    Para o simples uso de <a href="negrito.html">
+        <b>negrito</b></a> basta fazer uso do
+    <strong>&lt;b&gt;&lt;/b&gt;.</strong>
+    <!--Negrito-->
+    <br>
+    &nbsp;
+    <!--Itálico-->
+    Para o simples uso do <a href="itálico.html">
+        <em>itálico</em></a> basta fazer uso do
+    <strong><em>&lt;em</em>&gt;&lt;/em&gt;</strong><br>
+    <!--Itálico-->
+    &nbsp;
+    Para deixar <code>assim</code> utiliza-se o comando <strong>&lt;code&gt;<br></strong>
+    &nbsp;
+    <abbrr title="Como isso aqui por exemplo olha">
+        Caso queira escrever citações com &apos;.&apos; e etc basta utilizar &lt;pre&gt; e ele mantém qualquer tipo de
+        formatação
+    </abbrr>
+
+    <br>
+
+    <!--links-->
+    &nbsp;
+    Para <a href="http://google.com">linkar</a> algum conteúdo basta usar o <strong>&lt;a href=&quot;Link
+        aqui&quot;&gt;Nome do Link&lt;/a&gt;</strong> aqui pode colocar doc&apos;s como .html ou para um site não
+    esqueça de citar o http:// como exemplo http://exemplo.com
+
+    <h2 id="citar">
+        Para citar caraceteres reservados:
+    </h2>
+
+    <li>&lt; tal como <strong>&amp;lt</strong></li>
+    <li>&gt; tal como <strong>&amp;gt</strong></li>
+    <li>&quot; tal como <strong>&amp;quot</strong></li>
+    <li>&amp; tal como <strong>&amp;amp</strong></li>
+    <li>&apos; tal como <strong>&amp;apos</strong></li>
+    <li>(&nbsp; &nbsp;) para um espaço <strong>&amp;nbsp</strong></li>
+    <br>
+
+
+    <a href="Wallpaper - 1600x2560.png" target="_blank">
+        <!--!  1°Img  -->
+        <h2>Clique Aqui</h2>
+    </a>
+    <a href="Wallpaper - 1920x1080.png" target="_blank">
+        <!--!  2°Img  -->
+        <h2>Clique Aqui</h2>
+    </a>
+
+    <h1 id="semântico">Semântico</h1>
+    <p>
+        Tornar seu site mais semãntico permite facilidade de acesso e torna a busca do google mais acessível
+        para isso pode-se fazer uso dos parágrafos <strong>&lt;h1&gt;</strong><strong>&lt;h2&gt;</strong> e etc
+    </p>
+
+    <p>Para listar seu HTML basta usar o <strong>&lt;li&gt;</strong> para fazer uma lista ou se preferir, pelo emmet
+        pode digitar Li*<strong>Tamanho da lista</strong> para criar automáticamente. Por exemplo:
+        <li>exemplo 1</li>
+        <li>exemplo 2</li>
+        <li>exemplo 3</li>
+        <li>exemplo 4</li>
+        <li>exemplo 5</li>
+    </p>
+    <p>
+        para ordenar as listas ou algum conteúdo basta usar o comando &lt;ol&gt;
+        <ol>
+            <li>exemplo 1</li>
+            <li>exemplo 2</li>
+            <li>exemplo 3</li>
+            <li>exemplo 4</li>
+            <li>exemplo 5</li>
+        </ol>
+    </p>
+    <p>
+        Para criar listas não ordenas deve-se usar o comando &lt;ul&gt;
+        <ul>
+            <li>exemplo 1</li>
+            <li>exemplo 2</li>
+            <li>exemplo 3</li>
+            <li>exemplo 4</li>
+            <li>exemplo 5</li>
+        </ul>
+    </p>
+
+    <h1 id="citacoes">Citações</h1>
+    <blockquote cite="https://google.com">
+        0 <strong>Elemento HTML <code>&lt;blockquote&gt;</code>
+        </strong> (ou <em>HTML Block
+            Quotation Element</em>) indica que um texto externo foi
+        citado.
+    </blockquote>
+
+    <p>
+        Usamos o <strong>
+            <abbr title="Para esconder um simples texto no HTML">&lt;abbr tittle&gt;</abbr>
+        </strong> passe o mouse sobre
+    </p>
+
+
+    <p>usamos o <strong>&lt;address&gt;</strong> para fazer a menção da nosso endereço no site</p>
+
+    <blockquote>
+        <address>
+            <p>Kinsley Chinda Amadi<br>
+                <strong>Embu das Artes, SP</strong>
+            </p>
+        </address>
+    </blockquote>
+
+    <p>Para guiar um tema ao leitor através de um link basta usar dentro do <strong>
+            &lt;a href="#tag">Nome do link&lt;a\&gt;
+        </strong><br>
+        <!--
+    <a href="#citacoes">Como fazer citações ou menção</a>
+-->
+        já o título destino
+    </p>
+
+    <h2><strong>Saber criar listas organizadas</strong></h2>
+    <dl>
+
+        <dt>
+            <li>Basta usar a tag &lt;dl&gt; para esta dentro da mesma</li>
+        </dt>
+        <dd>
+            <li>Basta usar a tag &lt;dd&gt; para esta dentro da mesma</li>
+    </dl>
+    <h2></h2>
+    <p>O comando <strong>&lt;pre&gt;</strong> serve para romper qualquer tipo de formatação em seu texto, ideial para
+        escrever longos textos mantendo sua formatação original </p>
+    <a href="https://source.unsplash.com/random" alt=""></a>
+
+
+    <h1 id="Direcory"><strong> Usando Diretórios</strong></h1>
+    <p>
+        Para fazer uso e navegação entre Diretórios basta usar:<br>
+        <li>Para entrar em um Diretório use o nome dele e em seguida &quot/&quot para acessar os arquivos do Diretório
+        </li>
+        <li>Para sair de um Diretório basta usar &quot..&quot</li>
+    </p>
+
+
+
+    <h1>Tabelas</h1>
+    <table>
+        <Caption>Pessoas por idade</Caption>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>kinsley</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>princess</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>chima</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>3 Pessoas</td>
+            </tr>
+        </tfoot>
+    </table><br>
+
+    <table>
+        <caption>Produzidos x Vendidos por Loja</caption>
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: brown;">
+            <col span="2" style="background-color: burlywood;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup"></th>
+                <th colspan="2" scope="colgroup">Loja 1</th>
+                <th colspan="2">Loja 2</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Pilhas</th>
+                <td>50</td>
+                <td>45</td>
+                <td>55</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <th scope="row">Carregadores</th>
+                <td>25</td>
+                <td>18</td>
+                <td>23</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <br><br>
+    <h3>Entendendo tabelas</h3>
+
+    <p>
+        Inicia-se com &lt;table&gt; para iniciar uma tabela
+    </p>
+    <p>
+        &lt;caption&gt; para o "título" da pagina
+     </p>
+    <p>
+        Em seguida para fazer o conteúdo de sua tabela inicia-se com &lt;tr&gt;
+        <strong>
+            Table Roll
+        </strong>
+    </p>
+    <p>Para deixar a tabela mais semántica pode fazer uso das tag's <strong>&lt;thead&gt;</strong>
+        <strong>&lt;tbody&gt;</strong> e <strong>&lt;tfoot&gt;</strong><br>
+        <h3>Linhas e tabelas</h3>
+        <strong>
+            &lt;tr&gt;
+        </strong> é a formula da linha <br>
+        <strong>
+            &lt;th&gt;
+        </strong>  é a formula da coluna</p>
+</body>
+
+</html>
