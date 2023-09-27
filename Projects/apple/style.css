@@ -20,6 +20,13 @@ nav{
 }
 .navbar-nav > li > a:hover {
   background-color:#03A9F4;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+.navbar-nav > li > a:not(:hover) {
+  background-color:#03A9F4;
+  transform: scale(1  );
+  transition: all 1s;
 }
 .navbar-nav > li > a:focus {
   background-color:#03A9F4;
@@ -44,7 +51,7 @@ nav{
 }
 #personal{
   
-  background-color:rgb(25,46,75);
+  background-color:rgb(21, 0, 255);
   background-image:url(https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png);
   background-repeat:no-repeat;
   background-position:center;
@@ -157,7 +164,14 @@ nav{
   background-color:rgba(255,255,255,0.7);
 }
 #social .social-buttons .row a:hover{
-  background-color:#FFF
+  background-color:#FFF;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+#social .social-buttons .row a:not(:hover){
+  background-color:#FFF;
+  transform: scale(1);
+  transition: all 1s;
 }
 #footer{
   background-color:#0F0F0F;
