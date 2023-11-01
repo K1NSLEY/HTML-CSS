@@ -30,20 +30,20 @@ img {
 
 .card:not(:hover) .inner {
     transform: translateY(-5px) rotateX(25deg) translateZ(0);
-  transition: all 1s;
+  transition: all 0s;
 }
 
 .card:not(:hover) .title {
     transform: scale(1); /* Exemplo de transformação - ajuste conforme necessário */
-    transition: all 1s; /* Adicione uma transição suave */
+    transition: all 0s; /* Adicione uma transição suave */
 }   
 
 .card:hover .inner {
     transform: perspective(1800px) translateY(-5px) rotateX(25deg) translateZ(0); 
-  transition: all 1s;
+  transition: all 0;
 }
 
 .card:hover .title {
     transform: scale(1.2); /* Exemplo de transformação - ajuste conforme necessário */
-    transition: all 1s; /* Adicione uma transição suave */
+    transition: all 0s; /* Adicione uma transição suave */
 }   
